@@ -1,5 +1,35 @@
-.navbar-expand-lg {
-  background-color: yellowgreen;
+/* Conexion de header */
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(253, 190, 190, 0.603);
+}
+header nav {
+  display: flex;
+}
+header nav div .container-fluid {
+  display: flex;
+}
+header nav div .container-fluid .collapse {
+  align-items: center;
+  justify-content: space-around;
+}
+.img-uno {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  max-width: 100%;
+  position: relative;
+}
+.img-uno .imag-uno {
+  background-image: url(/imag-png/depilacion\ laser-chicas.jpg);
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
