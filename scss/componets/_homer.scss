@@ -1,6 +1,6 @@
 * {
-    border: 0;
     box-sizing: border-box;
+    border: 0;
     margin: 0;
 }
 
@@ -8,27 +8,35 @@ header {
     background-color: rgba(253, 190, 190, 0.603);
 
     nav {
+        @media only screen and (max-width: 768px) {
+            background-color: gold;
+        padding: 20px 40px;}
         display: flex;
+        
 
         div {
+            
 
-            .container-fluid {
+            .collapse {
+                padding:0px 20px;
                 display: flex;
+                width: webkit-fill-available;
+                align-items: center;
+                justify-content: space-around;
 
-                .collapse {
-                    align-items: center;
-                    justify-content: space-around;
+                li {
+                    
+                    margin: 20px;
+                    display: flex;
+                    display: inline-block;
+                    
+                    .nav-link {
+                   margin: 5px;
+                   color: black;
+                   
+                
+                        
 
-                    ul {
-
-                        li {
-
-                            a {
-
-                            }
-
-
-                        }
                     }
                 }
             }
@@ -37,7 +45,12 @@ header {
 }
 
 
-.img-uno {
+
+
+.img-uno-1 {
+    @media only screen and (max-width: 768px) {
+        background-color: gold;
+    padding: 20px 40px;}
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,11 +58,74 @@ header {
     height: 30rem;
     max-width: 100%;
     position: relative;
+    background-image: url(/imag-png/depilacion\ laser-chicas.jpg);
+    text-align: center;
 
-    .imag-uno{
-        background-image: url(/imag-png/depilacion\ laser-chicas.jpg);
-        text-align: center;
+    h2{
+        @media only screen and (max-width: 768px) {
+            background-color: gold;
+        padding: 20px 40px;}
+        padding: 100px;
+
+
+        .texto-interior {
+            font-weight: bold;
+            color: black;
+            font-size: 2rem;
+            left: 10%;
+            position: absolute;
+            text-align: center;
+            top: 40%;
+            width: 80%;
+        }
 
     }
 
+}
+
+.texto {
+    padding: 10%;
+    width: 90%;
+    
+
+    p {
+        color: black;
+        font-size: 1.4rem;
+        margin: 0 0 24px 0;
+
+    }
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+.mapa {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+
+    .container {
+        background-color: rgba(253, 190, 190, 0.603);
+        height: 100%;
+        padding: 50px 20px;
+        display: flow;
+        max-width: none;
+
+        ol {
+            padding: 15px;
+            display: math;
+
+
+            a {
+                color: black;
+                text-decoration: none;
+
+            }
+        }
+
+    }
 }
