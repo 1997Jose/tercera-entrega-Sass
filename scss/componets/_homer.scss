@@ -5,6 +5,9 @@
 }
 
 header {
+    @media only screen and (max-width: 768px) {
+        background-color: gold;
+    padding: 20px 40px;}
     background-color: rgba(253, 190, 190, 0.603);
 
     nav {
@@ -101,9 +104,28 @@ h3 {
     
 }
 
-.mapa {
-    width: 100%;
+.contenedor-1 {
+    background-color: rgb(216, 216, 216);
+    margin: 15px;
+    display: flex;
+
+    .mapa {
+
+        width: 50%;
+        padding: 20px;
+    }
+
+    .contenedor-2 {
+        width: max-content;
+        padding-left: 190px;
+
+        .mb-3 {
+            width: 180%;
+
+        }
+    }
 }
+
 
 footer {
     display: flex;
@@ -129,3 +151,5 @@ footer {
 
     }
 }
+
+
