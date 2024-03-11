@@ -41,9 +41,10 @@
     
 
     .p-1 {
+        display: flexbox;
+        text-align: center;
         color:magenta;
         font-size: 1.4rem;
-        margin: 0 0 24px 0;
 
     }
 }
@@ -94,3 +95,80 @@
     margin-left: 50vh;
     display: block;
 }
+
+
+.content-boton {
+
+    .accordion {
+        justify-content: center;
+        display: flex;
+        .accordion-item{
+            .accordion-header{
+                margin: 0;
+                padding: 0;
+                padding-left: 5vh;
+    
+                .accordion-button{
+                    display: flex;
+                    width: 50vh;
+                    
+                    .accordion-collapse{
+                        max-width: 50%;
+                        .accordion-body {
+
+                         }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card {
+    display: flex;
+    margin-left: 15vh;
+}
+
+.lista-ordena{
+    margin-top: 25px;
+    background-color: rgb(219, 219, 219);
+
+    li {
+    text-decoration: none;
+    display: flex;
+         button{
+             display: flex;
+             justify-content: center;
+            border: 0.1px solid black;
+                
+            }
+        }
+}
+
+a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.position-static {
+    margin: 50px;
+}
+.conteiner-img {
+    display: block;
+    max-width: max-content;
+    margin-left: 20vh;
+}
+
+.parrafos-img {
+    display: flex;
+}
+.conteiner-img2 {
+    display: block;
+    max-width: max-content;
+    margin-left: 85rem;
+}
+
+
+

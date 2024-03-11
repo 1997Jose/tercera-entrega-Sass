@@ -118,11 +118,15 @@ footer .container {
   display: flow;
   max-width: none;
 }
-footer .container ol {
+footer .container ul {
+  display: flex;
+  margin-left: 15vh;
+}
+footer .container ul ol {
   padding: 15px;
   display: math;
 }
-footer .container ol a {
+footer .container ul ol a {
   color: black;
   text-decoration: none;
 }
@@ -169,9 +173,10 @@ footer .container ol a {
   width: 90%;
 }
 .texto .p-1 {
+  display: flexbox;
+  text-align: center;
   color: magenta;
   font-size: 1.4rem;
-  margin: 0 0 24px 0;
 }
 
 .div-titulo {
@@ -209,6 +214,67 @@ footer .container ol a {
 .button {
   margin-left: 50vh;
   display: block;
+}
+
+.content-boton .accordion {
+  justify-content: center;
+  display: flex;
+}
+.content-boton .accordion .accordion-item .accordion-header {
+  margin: 0;
+  padding: 0;
+  padding-left: 5vh;
+}
+.content-boton .accordion .accordion-item .accordion-header .accordion-button {
+  display: flex;
+  width: 50vh;
+}
+.content-boton .accordion .accordion-item .accordion-header .accordion-button .accordion-collapse {
+  max-width: 50%;
+}
+.card {
+  display: flex;
+  margin-left: 15vh;
+}
+
+.lista-ordena {
+  margin-top: 25px;
+  background-color: rgb(219, 219, 219);
+}
+.lista-ordena li {
+  text-decoration: none;
+  display: flex;
+}
+.lista-ordena li button {
+  display: flex;
+  justify-content: center;
+  border: 0.1px solid black;
+}
+
+a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+}
+
+.position-static {
+  margin: 50px;
+}
+
+.conteiner-img {
+  display: block;
+  max-width: max-content;
+  margin-left: 20vh;
+}
+
+.parrafos-img {
+  display: flex;
+}
+
+.conteiner-img2 {
+  display: block;
+  max-width: max-content;
+  margin-left: 85rem;
 }
 
 /*# sourceMappingURL=style.css.map */
