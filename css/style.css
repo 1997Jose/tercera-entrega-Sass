@@ -168,14 +168,19 @@ footer .container ul ol a {
   width: 80%;
 }
 
+h3 {
+  color: blue;
+  margin: 60px;
+}
+
 .texto {
-  padding: 10%;
-  width: 90%;
+  padding: 3%;
+  width: 100%;
 }
 .texto .p-1 {
   display: flexbox;
   text-align: center;
-  color: magenta;
+  color: black;
   font-size: 1.4rem;
 }
 
@@ -267,11 +272,42 @@ a {
   margin-left: 20vh;
 }
 
-.parrafos-img {
+.parrafos {
+  padding: 0px;
+  color: black;
   display: flex;
 }
 
 .conteiner-img2 {
+  display: block;
+  max-width: max-content;
+  margin-left: 85rem;
+}
+
+.parrafos-img {
+  padding-top: 15px;
+}
+
+div .conteint-ul {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+div .conteint-ul ol {
+  bottom: 5px;
+  border: 1px solid gray;
+  align-items: center;
+  margin: 2rem;
+  padding: 3px;
+  background-color: rgba(253, 190, 190, 0.603);
+}
+div .conteint-ul ol a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.conteiner-img3 {
   display: block;
   max-width: max-content;
   margin-left: 85rem;

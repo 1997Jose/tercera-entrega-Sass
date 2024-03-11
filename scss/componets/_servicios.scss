@@ -35,19 +35,24 @@
 
 }
 
+h3 {
+    color: blue;
+    margin: 60px;
+}
 .texto {
-    padding: 10%;
-    width: 90%;
+    padding: 3%;
+    width: 100%;
     
 
     .p-1 {
         display: flexbox;
         text-align: center;
-        color:magenta;
+        color:black;
         font-size: 1.4rem;
-
     }
 }
+
+
 
 .div-titulo {
     padding-left: 70vh;
@@ -161,7 +166,9 @@ a {
     margin-left: 20vh;
 }
 
-.parrafos-img {
+.parrafos {
+    padding: 0px;
+    color: black;
     display: flex;
 }
 .conteiner-img2 {
@@ -169,6 +176,6 @@ a {
     max-width: max-content;
     margin-left: 85rem;
 }
-
-
-
+.parrafos-img{
+    padding-top: 15px;
+}
