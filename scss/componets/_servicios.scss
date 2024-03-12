@@ -1,4 +1,6 @@
-
+* {
+    margin: 0;
+}
 .img-uno-1 {
     @media only screen and (max-width: 768px) {
         background-color: gold;
@@ -35,9 +37,8 @@
 
 }
 
-h3 {
-    color: blue;
-    margin: 60px;
+.pf{
+    margin-left: 35rem;
 }
 .texto {
     padding: 3%;
@@ -102,6 +103,9 @@ h3 {
 }
 
 
+.accordion-body{
+    display: flex;
+}
 .content-boton {
 
     .accordion {
@@ -119,9 +123,6 @@ h3 {
                     
                     .accordion-collapse{
                         max-width: 50%;
-                        .accordion-body {
-
-                         }
                     }
                 }
             }
@@ -163,7 +164,7 @@ a {
 .conteiner-img {
     display: block;
     max-width: max-content;
-    margin-left: 20vh;
+    margin-left: 3rem;
 }
 
 .parrafos {

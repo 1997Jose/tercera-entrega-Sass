@@ -1,0 +1,16 @@
+
+
+.img-uno-1 {
+    @media only screen and (max-width: 768px) {
+        background-color: gold;
+    padding: 20px 40px;}
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 100%;
+    position: relative;
+    background-image: url(/imag-png/depilacion\ laser-chicas.jpg);
+    text-align: center;
+}
