@@ -127,6 +127,7 @@ footer .container ul ol {
   display: math;
 }
 footer .container ul ol a {
+  display: flex;
   color: black;
   text-decoration: none;
 }
@@ -388,6 +389,35 @@ footer .container-footer ul ol a {
   width: 80%;
 }
 
+.caja-1 .caja-conteiner {
+  margin-left: 27.5rem;
+  max-width: 60%;
+  display: flex;
+}
+.caja-1 .caja-conteiner ul {
+  padding: 30px;
+}
+.caja-1 .caja-conteiner ul li {
+  display: flex;
+  text-decoration: none;
+}
+.caja-1 .caja-conteiner ul li a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+.conteiner-listas {
+  background-color: rgb(218, 218, 218);
+  padding: 20px;
+}
+.conteiner-listas button {
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  padding: 5px;
+}
+
 .img-uno-1 {
   background-attachment: fixed;
   background-position: center;
@@ -404,6 +434,23 @@ footer .container-footer ul ol a {
     background-color: gold;
     padding: 20px 40px;
   }
+}
+
+.conteiner-principal {
+  display: flex;
+  justify-content: center;
+}
+.conteiner-principal .caja-h2 {
+  background-color: gainsboro;
+}
+
+.caja {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 35px;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

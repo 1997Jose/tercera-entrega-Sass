@@ -35,3 +35,39 @@
     }
 
 }
+
+.caja-1 {
+
+    .caja-conteiner {
+        margin-left: 27.5rem;
+        max-width: 60%;
+        display: flex;
+
+        ul {
+            padding: 30px;
+
+            li {
+               display: flex;
+                text-decoration: none;
+                a {
+                    display: flex;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 15px;
+
+                }
+            }
+        }
+    }
+}
+
+.conteiner-listas {
+    background-color: rgb(218, 218, 218);
+    padding: 20px;
+
+    button {
+        background-color:blanchedalmond;
+        border: 1px solid black;
+        padding: 5px;
+    }
+}

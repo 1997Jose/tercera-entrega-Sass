@@ -1,0 +1,17 @@
+.conteiner-principal {
+    display: flex;
+    justify-content: center;
+
+    .caja-h2 {
+        background-color: gainsboro;
+    }
+}
+
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 35px;
+    color: black;
+}
