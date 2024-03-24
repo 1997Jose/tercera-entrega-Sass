@@ -453,4 +453,46 @@ footer .container-footer ul ol a {
   color: black;
 }
 
+.conteiner-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.conteiner-flex .wrapper {
+  width: 350px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.conteiner-flex .wrapper .current-date {
+  display: flex;
+  justify-content: center;
+}
+.conteiner-flex .wrapper .current-date .parrafo {
+  margin-bottom: 0;
+  padding-top: 2px;
+}
+
+.calendar .weeks {
+  display: flex;
+  justify-content: space-around;
+}
+.calendar .weeks ul {
+  display: block;
+  text-decoration: none;
+}
+.calendar .weeks ul .seman {
+  display: flex;
+  text-decoration: none;
+}
+
+.day {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  background-color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
