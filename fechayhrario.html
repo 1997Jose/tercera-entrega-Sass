@@ -70,34 +70,43 @@
  </div>
   <!-- fin h2 -->
 
+<!-- inicio texto -->
+  <div class="caja-texto">
+      <div><p>Lorem ipsum dolor sit</p></div>
+      <div><p>Lorem ipsum dolor sit</p></div>
+  </div>
+<!-- fin texto -->
+
+  <!-- contender de Calendarios,horario,siguiente -->
 <div class="conteiner-flex">
-      <div>
-        <div >
-            <div class="wrapper">
+     <div class="current-date">
+                <div class="wrapper" >
+                   <button class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/>
+                      </svg>
+                    </button>
                 
-                <button class="icons">
-                    <svg  width="16" height="16" fill="currentColor" class="bi bi-caret" viewBox="0 0 16 16">
-                        <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
-                      </svg>
+
+                    <span>Marzo</span>
+                    <span>2024</span>
+
+                    <button class="icons" >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                          </svg>
                     </button>
-                    <div class="current-date"><p class="parrafo">Marzo 2024</p></div>
-                    
-                    <button class="icons">
-                      <svg  width="16" height="16" fill="currentColor" class="bi bi-caret" viewBox="0 0 16 16">
-                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
-                      </svg>
-                    </button>
-            </div>
-        </div>
+                </div>
+        
         <div class="calendar">
             <ul class="weeks">
-                <li class="seman">Do</li>
-                <li>Lu</li>
-                <li>Ma</li>
-                <li>Mié</li>
-                <li>jue</li>
-                <li>Vie</li>
-                <li>Sab</li>
+                <div><abbr>Do</abbr></div>
+                <div><abbr>Lu</abbr></div>
+                <div><abbr>Ma</abbr></div>
+                <div><abbr>Mié</abbr></div>
+                <div><abbr>jue</abbr></div>
+                <div><abbr>Vie</abbr></div>
+                <div><abbr>Sab</abbr></div>
             </ul>
             <ul>
                 <div class="day" role="row"><!-- Display flex -->
@@ -132,14 +141,12 @@
                     </div>
 
                     <div class="calendar-day" tabindex="-1" role="gridcell" aria-label="viernes, 1 de marzo 2024" aria-disabled="false" aria-selected="false" ><!-- display flex -->
-                        <div class="Days" data-date="2024-2-1" data-autsideday="true"><!-- display flex -->
+                        <div class="Days" data-date="2024-2-1" data-autsideday="false"><!-- display flex -->
                             <div class="Numeros">1</div>
-                            <div class="sj9oznr">
-                                <div class="Jose-mh" data-available="false"><!-- display flex -->
-                                    <svg width="16" height="16" vieBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-hook="dot-icon" >
-                                        <circle cx="8" cy="8" r="8"></circle>
-                                    </svg><!-- no lleva flex -->
-                                </div>
+                            <div class="Jmh1997" data-available="false"><!-- display flex -->
+                                <svg width="16" height="16" vieBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-hook="dot-icon" >
+                                    <circle cx="8" cy="8" r="8"></circle>
+                                </svg>
                             </div>
                         </div>
                     </div>
@@ -151,7 +158,7 @@
                                 <div class="Jmh1997" data-available="false"><!-- display flex -->
                                     <svg width="16" height="16" vieBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" data-hook="dot-icon" >
                                         <circle cx="8" cy="8" r="8"></circle>
-                                    </svg><!-- no lleva flex -->
+                                    </svg>
                                 </div>
                             </div>
                         </div>
@@ -564,9 +571,9 @@
                             </div>
                         </div>
 
-                         <div class="calendar-day" tabindex="-1" role="gridcell" aria-label="viernes, 5 de abril 2024" aria-disabled="true" aria-selected="false"><!-- display flex -->
-                                <div class="Days" data-date="2024-3-5" data-autsideday="true"><!-- display flex -->
-                                   <div class="Numeros">5</div>
+                         <div class="calendar-day" tabindex="-1" role="gridcell" aria-label="sabado, 6 de abril 2024" aria-disabled="true" aria-selected="false"><!-- display flex -->
+                                <div class="Days" data-date="2024-3-6" data-autsideday="true"><!-- display flex -->
+                                   <div class="Numeros">6</div>
                                </div>
                          </div>
                     </div>
@@ -574,7 +581,47 @@
             </ul>
         </div>
     </div>
-</div>
+    <div  class="caja-horario">
+        <div><p style="max-width: 80%; padding-left: 30px; padding-top: 20px;">Lorem ipsum dolor sit amet. </p></div>
+        <div class="horarios-disponible">
+            <button class="hora1">
+                <a href="" style="padding-left: 10px; text-decoration: none; color: black;">9:00</a></button>
+            <button class="hora1">
+                <a href="" style="padding-left: 5px; text-decoration: none; color: black;">10:30</a></button>
+            <button class="hora1"><a href="" style="padding-left: 5px;text-decoration: none; color: black;">12:30</a></button>
+        </div>
+        <div class="horarios-disponible">
+            <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none; color: black;" >11:00</a></button>
+        </div>
+        <div>
+            <div><p style=" padding-left: 30px; padding-top: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p></div>
+            <div class="horarios-disponible">
+                 <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none; color: black;">13:00</a></button>
+                 <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none; color: black;">14:30</a></button>
+                 <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none; color: black;">15:00</a></button>
+            </div>
+            <div class="horarios-disponible">
+                <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none; color: black;">16:30</a></button>
+                <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none;color: black;">17:30</a></button>
+                <button class="hora1"><a href="" style="padding-left: 5px; text-decoration: none; color: black;">18:00</a></button>
+                </div>
+        </div>
+    </div>
+    <div class="detalles-servicios">
+        <div style="padding-top: 5rem; display: flex; justify-content: center;">
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+        </div>
+        <div style="padding-top: 1.2rem; display: flex; justify-content: center;">
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+        </div>
+
+        <div style=" padding-top: 1rem; display: flex; justify-content: center;">
+        <button style="border: 1px solid black; display: flex; width: 30%;" >
+            <a style="text-decoration: none; color: black; padding: 5px; display: flex; margin-left: 20px;" href=""> Siguiente </a>
+        </button>
+    </div>
+    </div>
+ </div>
  
  
 
