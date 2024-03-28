@@ -1,0 +1,85 @@
+
+
+.img-uno-1 {
+    @media only screen and (max-width: 768px) {
+        background-color: gold;
+    padding: 20px 40px;}
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 100%;
+    position: relative;
+    background-image: url(/imag-png/depilacion\ laser-chicas.jpg);
+    text-align: center;
+
+    h2{
+        @media only screen and (max-width: 768px) {
+            background-color: gold;
+        padding: 20px 40px;}
+        padding: 100px;
+
+
+        .texto-interior {
+            font-weight: bold;
+            color: black;
+            font-size: 2rem;
+            left: 10%;
+            position: absolute;
+            text-align: center;
+            top: 40%;
+            width: 80%;
+        }
+
+    }
+
+}
+
+
+
+.cont-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    .texto- {
+        
+
+        .lorem-p {
+
+
+        }
+    }
+}
+
+.formul-principal {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .formulario-1 {
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-word;
+        row-gap: 24px;
+        column-gap: 20px;
+        .mb-3 {
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;
+            
+    
+        }
+    }
+}
+
+.form-telef {
+    padding-top: 30px;
+    word-break: break-word;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    
+}

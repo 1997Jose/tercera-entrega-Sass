@@ -50,20 +50,19 @@
     }
 }
 
-.formul-principal {
+.formul-principal- {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    .formulario-1 {
+    .formulario-2 {
         display: flex;
         flex-wrap: wrap;
         word-break: break-word;
-        row-gap: 24px;
-        column-gap: 20px;
-        /* justify-content: center; */
-        .mb-3 {
+        row-gap: 0px;
+        column-gap: 0px;
+        .datos-4 {
             display: flex;
             flex-direction: column;
             padding-top: 30px;
@@ -73,7 +72,7 @@
     }
 }
 
-.form-telef {
+.form- {
     padding-top: 30px;
     word-break: break-word;
     display: flex;
