@@ -97,7 +97,7 @@ h3 {
   display: flex;
 }
 .contenedor-1 .mapa {
-  width: 50%;
+  width: 100%;
   padding: 20px;
 }
 .contenedor-1 .contenedor-2 {
@@ -115,19 +115,14 @@ footer .container {
   background-color: rgba(253, 190, 190, 0.603);
   height: 100%;
   padding: 50px 20px;
-  display: flow;
+  display: flex;
   max-width: none;
 }
-footer .container ul {
+footer .container .redes-sociales {
   display: flex;
-  margin-left: 15vh;
+  margin: 8px;
 }
-footer .container ul ol {
-  padding: 15px;
-  display: math;
-}
-footer .container ul ol a {
-  display: flex;
+footer .container .redes-sociales a {
   color: black;
   text-decoration: none;
 }
