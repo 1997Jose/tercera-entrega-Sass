@@ -37,11 +37,13 @@
 }
 
 .caja-1 {
+    background-color: rgb(160, 160, 160);
 
     .caja-conteiner {
         margin-left: 27.5rem;
         max-width: 60%;
         display: flex;
+        justify-content: center;
 
         ul {
             padding: 30px;

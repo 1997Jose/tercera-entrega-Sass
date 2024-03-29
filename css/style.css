@@ -402,10 +402,14 @@ footer .container-footer ul ol a {
   width: 80%;
 }
 
+.caja-1 {
+  background-color: rgb(160, 160, 160);
+}
 .caja-1 .caja-conteiner {
   margin-left: 27.5rem;
   max-width: 60%;
   display: flex;
+  justify-content: center;
 }
 .caja-1 .caja-conteiner ul {
   padding: 30px;
@@ -658,6 +662,15 @@ footer .container-footer ul ol a {
   display: flex;
   row-gap: 20px;
   column-gap: 20px;
+}
+
+.contenedor-1- {
+  display: grid;
+  padding-top: 10rem;
+}
+.contenedor-1- .caja2- {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
