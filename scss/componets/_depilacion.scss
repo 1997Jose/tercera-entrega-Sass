@@ -1,37 +1,4 @@
 
-.conten-depilacion {
-    @media only screen and (max-width: 768px) {
-        background-color: gold;
-    padding: 20px 40px;}
-    display: flex;
-    justify-content: center;
-    .conteint-ul {
-        display: flex;
-        align-items: center;
-
-        ol {
-            bottom: 5px;
-            border: 1px solid gray;
-            align-items: center;
-            margin: 2rem;
-            padding: 3px;
-            background-color: rgba(253, 190, 190, 0.603);
-          
-
-            a {
-                font-size: 20px;
-                color: black;
-                text-decoration: none;
-            }
-        }
-    }
-}
-
-.img {
-    display: flex;
-    justify-content: center;
-}
-
 
 
 footer {

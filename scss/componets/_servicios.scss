@@ -37,146 +37,24 @@
 
 }
 
-.pf{
-    margin-left: 35rem;
-}
-.texto {
-    padding: 3%;
-    width: 100%;
-    
 
-    .p-1 {
-        display: flexbox;
-        text-align: center;
-        color:black;
-        font-size: 1.4rem;
-    }
-}
+.caja-grid {
+    display: grid;
 
-
-
-.div-titulo {
-    padding-left: 70vh;
-
-    
-}
-.contnd-1 {
-    display: flex;
-    padding-left: 20rem;
-
-
-    .contend-2 {
+    .caja-3- {
         display: flex;
-        width: max-content;
-
-        .lista-ul {
-            width: max-content;
-
-            .contend-3 {
-                display: flex;
-                background-color: rgb(163, 163, 163);
-                margin: 30px;
-                padding: 30px;
-                color: gray;
-                width: 110%;
-                
-
-                li {
-                    display: inline-block;
-
-                    a {
-                        color: black;
-                        text-decoration: none;
-                        display: flex;
-    
-                    }
-                }
-
-            }
-        }
-    }
-}
-
-.button {
-    margin-left: 50vh;
-    display: block;
-}
-
-
-.accordion-body{
-    display: flex;
-}
-.content-boton {
-
-    .accordion {
         justify-content: center;
-        display: flex;
-        .accordion-item{
-            .accordion-header{
-                margin: 0;
-                padding: 0;
-                padding-left: 5vh;
-    
-                .accordion-button{
-                    display: flex;
-                    width: 50vh;
-                    
-                    .accordion-collapse{
-                        max-width: 50%;
-                    }
-                }
-            }
-        }
+        padding-top: 2rem;
     }
 }
 
-.card {
+.tex-p- {
+    padding-top: 20px;
     display: flex;
-    margin-left: 15vh;
-}
-
-.lista-ordena{
-    margin-top: 25px;
-    background-color: rgb(219, 219, 219);
-
-    li {
-    text-decoration: none;
-    display: flex;
-         button{
-             display: flex;
-             justify-content: center;
-            border: 0.1px solid black;
-                
-            }
-        }
-}
-
-a {
-    display: flex;
-    color: black;
-    text-decoration: none;
+    justify-content: center;
     
+    .tex-p-2 {
+        max-width: 70%;
+    }
 }
 
-.position-static {
-    margin: 50px;
-}
-.conteiner-img {
-    display: block;
-    max-width: max-content;
-    margin-left: 3rem;
-}
-
-.parrafos {
-    padding: 0px;
-    color: black;
-    display: flex;
-}
-.conteiner-img2 {
-    display: block;
-    max-width: max-content;
-    margin-left: 85rem;
-}
-.parrafos-img{
-    padding-top: 15px;
-}
