@@ -201,6 +201,20 @@ footer .container .redes-sociales a {
   max-width: 70%;
 }
 
+.caja-turnos- {
+  display: grid;
+  padding-top: 6rem;
+}
+.caja-turnos- .caja-turn-2 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(209, 209, 209);
+}
+
+.carusel-dpl- {
+  margin-left: 3rem;
+}
+
 footer {
   padding-top: 25px;
   display: block;
@@ -314,9 +328,6 @@ footer .container-footer ul ol a {
 .conteiner-principal {
   display: flex;
   justify-content: center;
-}
-.conteiner-principal .caja-h2 {
-  background-color: gainsboro;
 }
 
 .caja {
@@ -548,5 +559,51 @@ footer .container-footer ul ol a {
   display: flex;
   justify-content: center;
 }
+
+/* .Div-contenedor {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+
+    .login-conteiner-{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: 100%;
+
+        .flex-cont- {
+            margin: 0 auto;
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+
+        }
+
+    }
+}
+
+.login-conteiner-{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+.google-botton- {
+    width: 100%;
+    border: 1px solid black;
+    height: 2.5rem;
+    margin-right: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+} */
 
 /*# sourceMappingURL=style.css.map */

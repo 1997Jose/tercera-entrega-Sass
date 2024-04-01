@@ -1,5 +1,20 @@
 
 
+.caja-turnos-{
+    display: grid;
+    padding-top: 6rem;
+
+    .caja-turn-2{
+        display: flex;
+        justify-content: center;
+        background-color: rgba(209, 209, 209);
+    }
+}
+.carusel-dpl-{
+    margin-left: 3rem;
+    
+}
+
 
 footer {
     padding-top: 25px;
