@@ -109,8 +109,16 @@ h3 {
 }
 .contd-grid .contd-flex .tex-p- {
   max-width: 20%;
-  padding-top: 50px;
+  padding-top: 55px;
   margin-left: 15px;
+  box-shadow: 1px 1px 1px rgb(206, 132, 132);
+  transition: all 400ms ease;
+}
+
+.img-blog {
+  box-shadow: 0px 1px 10px rgb(206, 132, 132);
+  transition: all 400ms ease;
+  background: #FFF;
 }
 
 footer {
@@ -192,6 +200,20 @@ footer .container .redes-sociales a {
   padding-top: 2rem;
 }
 
+.card {
+  border: 1px solid rgb(105, 105, 105);
+  box-shadow: 1px 1px 10px rgb(206, 132, 132);
+  transition: all 400ms ease;
+}
+.card .btn {
+  margin-left: 4.2rem;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+  transform: translateY(-3%);
+}
+
 .tex-p- {
   padding-top: 20px;
   display: flex;
@@ -208,11 +230,17 @@ footer .container .redes-sociales a {
 .caja-turnos- .caja-turn-2 {
   display: flex;
   justify-content: center;
-  background-color: rgb(209, 209, 209);
+  /* background-color: rgba(209, 209, 209); */
 }
 
 .carusel-dpl- {
   margin-left: 3rem;
+}
+
+.card- {
+  border: 1px solid rgb(105, 105, 105);
+  box-shadow: 1px 1px 10px rgb(206, 132, 132);
+  transition: all 400ms ease;
 }
 
 footer {
@@ -293,7 +321,7 @@ footer .container-footer ul ol a {
 }
 
 .caja-1 {
-  background-color: rgb(160, 160, 160);
+  /* background-color: rgb(160, 160, 160); */
 }
 .caja-1 .caja-conteiner {
   margin-left: 27.5rem;
@@ -318,11 +346,18 @@ footer .container-footer ul ol a {
 .conteiner-listas {
   background-color: rgb(218, 218, 218);
   padding: 20px;
+  box-shadow: 1px 1px 10px rgb(206, 132, 132);
+  transition: all 400ms ease;
 }
 .conteiner-listas button {
-  background-color: blanchedalmond;
+  background-color: rgb(255, 224, 224);
   border: 1px solid black;
   padding: 5px;
+}
+
+.conteiner-listas:hover {
+  box-shadow: 5px 5px 20px rgb(0, 0, 0);
+  transform: translateY(-3%);
 }
 
 .conteiner-principal {

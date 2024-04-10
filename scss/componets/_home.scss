@@ -115,6 +115,7 @@ h3 {
     width: 100%;
 }
 
+
 .contd-grid {
     display: grid;
 
@@ -122,14 +123,28 @@ h3 {
         display: flex;
         justify-content: center;
         padding-top: 5rem;
+        
+
+        
 
         .tex-p-{
             max-width: 20%;
-            padding-top: 50px;
+            padding-top: 55px;
             margin-left: 15px;
+            box-shadow: 1px 1px 1px rgb(206, 132, 132);
+            transition: all 400ms ease;
+            
         }
     }
 }
+
+.img-blog {
+    box-shadow: 0px 1px 10px rgb(206, 132, 132);
+    transition: all 400ms ease;
+    background: #FFF;
+}
+
+
 
 
 footer {
@@ -147,7 +162,7 @@ footer {
             display: flex;
             margin: 8px;
             
-            
+
                 a {
                     color: black;
                     text-decoration: none;

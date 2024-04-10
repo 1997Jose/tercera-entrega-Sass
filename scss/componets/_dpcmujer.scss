@@ -37,7 +37,7 @@
 }
 
 .caja-1 {
-    background-color: rgb(160, 160, 160);
+    /* background-color: rgb(160, 160, 160); */
 
     .caja-conteiner {
         margin-left: 27.5rem;
@@ -66,10 +66,16 @@
 .conteiner-listas {
     background-color: rgb(218, 218, 218);
     padding: 20px;
+    box-shadow: 1px 1px 10px rgba(206, 132, 132);
+    transition: all 400ms ease;
 
     button {
-        background-color:blanchedalmond;
+        background-color:rgb(255, 224, 224);
         border: 1px solid black;
         padding: 5px;
     }
+}
+.conteiner-listas:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0.1);
+    transform: translateY(-3%);
 }
